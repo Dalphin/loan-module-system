@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'loan-managment-system'`, () => {
+  it(`should have as title 'mean-shoppingcart-app'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('loan-managment-system');
+    expect(app.title).toEqual('mean-shoppingcart-app');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('loan-managment-system app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('mean-shoppingcart-app app is running!');
   });
 });
