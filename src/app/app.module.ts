@@ -19,6 +19,7 @@ import { NavBarModule } from './theme-layout/layouts/nav-bar/nav-bar.module';
 import { FooterModule } from './theme-layout/layouts/footer/footer.module';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,

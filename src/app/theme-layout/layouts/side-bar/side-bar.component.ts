@@ -7,8 +7,12 @@ declare interface RouteInfo {
 }
 export const ROUTES: RouteInfo[] = [
   { path: '/dashboard', title: 'Dashboard',  class: '' },
-  { path: '/product-list', title: 'Products',  class: '' },
-  { path: '/customer-profile', title: 'Customer Profile',  class: '' }
+  { path: '/customer-profile', title: 'Customer Profile',  class: '' },
+  { path: '/loan-application-creation', title: 'Loan Application Creation',  class: '' },
+  { path: '/loan-application-amendment', title: 'Loan Application Amendment',  class: '' },
+  { path: '/loan-evaluation-creation', title: 'Loan Evaluation Creation',  class: '' },
+  { path: '/loan-evaluation-amendment', title: 'Loan Evaluation Amendment',  class: '' },
+  { path: '/loan-opening-creation', title: 'Loan Opening Creation',  class: '' }
 ];
 
 @Component({
